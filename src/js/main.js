@@ -7,7 +7,7 @@ import countriesMarkupTMPT from '../templates/countriesMarkup.hbs';
 
 refs.input.addEventListener(
   'input',
-  debounce(GenerateListFromResponse, 800),
+  debounce(GenerateListFromResponse, 500),
 );
 
 function GenerateListFromResponse(event) {
